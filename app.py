@@ -86,5 +86,5 @@ if st.button("Get Recommendations"):
     st.dataframe(recs.reset_index(drop=True))
 
     if recs.empty:
-        st.warning("No recommendations found. Try a different user ID or method.")
+        st.warning("No recommendations found. Try a different ID or method.")
 
