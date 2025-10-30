@@ -25,20 +25,19 @@ Streamlit
 
 📂 Project Structure
 MovieRecommendation/
-│
-├── app.py # Streamlit application file
-├── ml-100k/ # Dataset folder
-│ ├── u.data
-│ ├── u.item
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- app.py # Streamlit application file
+- ml-100k/ # Dataset folder
+   - u.data
+   - u.item
+
+- requirements.txt # Python dependencies
+- README.md # Project documentation
 
 ⚙️ Installation & Setup
 
 Clone this repository
 
-git clone https://github.com/YourUsername/MovieRecommendation.git
+git clone https://github.com/Shahnazaqsa/MovieRecommendation.git
 cd MovieRecommendation
 
 Create & activate virtual environment
@@ -62,3 +61,4 @@ Open your browser at http://localhost:8501
 Author: Shahnaz Aqsa
 Role: Machine Learning Engineer / AI Developer
 Built this project as part of an ML portfolio showcasing end-to-end recommendation systems.
+
